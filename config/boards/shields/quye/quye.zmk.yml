@@ -1,0 +1,12 @@
+file_format: "1"
+id: quye
+name: Quye
+type: shield
+url: https://github.com/asdf/asdf
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - quye_left
+  - quye_right
