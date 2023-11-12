@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-        keymap {
+       keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
@@ -24,6 +24,7 @@
    &kp LSHFT &kp Z &kp X    &kp C &kp V      &kp B &kp A &kp A &kp N   &kp M &kp COMMA &kp DOT &kp FSLH &kp ESC
    &kp A     &kp A &kp LGUI &kp A &kp SPACE  &kp A &kp A &kp A &kp RET &kp A &kp RALT  &kp A   &kp A    &kp A
                         >;
+                        sensor-bindings = <&inc_dec_kp A B &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 //                 lower_layer {
 // // -----------------------------------------------------------------------------------------
